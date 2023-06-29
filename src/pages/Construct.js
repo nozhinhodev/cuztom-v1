@@ -16,23 +16,26 @@ function Construct(props) {
                 integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
                 crossOrigin="anonymous"
             />
+
             <div className="header">
                 <div className="logo">
                     <Link to='/'><img src={logo} alt=""/></Link>
                 </div>
+
                 <div className="links">
 
-                    <Link to='/construct' className="il">
-                        Конструктор
-                    </Link>
-                    <Link to='/aigen' className="il">
-                        AI Генератор
-                    </Link>
-                    <Link to='/' className="il">
-                        Коллекции
-                    </Link>
+                    <div className="link">
+                        <Link className='il' to='/construct'>Конструктор</Link>
+                    </div>
+                    <div className="link">
+                        <Link className="il" to='/generator'>AI Генератор</Link>
+                    </div>
+                    <div className="link">
+                        <Link className="il" to='/'>Коллекции</Link>
+                    </div>
                 </div>
             </div>
+
         <div className="main__content">
             <div className="pic">
                <img src={hoodie} alt="" className="img__h"/>
