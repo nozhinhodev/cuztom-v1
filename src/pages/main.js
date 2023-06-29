@@ -25,7 +25,7 @@ function Main(props) {
                         <Link className='il' to='/construct'>Конструктор</Link>
                     </div>
                     <div className="link">
-                       <Link className="il" to='/generator'>AI Генератор</Link>
+                       <Link className="il" to='/aigen'>AI Генератор</Link>
                     </div>
                     <div className="link">
                         <Link className="il" to='/'>Коллекции</Link>

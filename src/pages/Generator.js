@@ -24,7 +24,7 @@ function Generator(props) {
                         <Link className='il' to='/construct'>Конструктор</Link>
                     </div>
                     <div className="link">
-                        <Link className="il" to='/generator'>AI Генератор</Link>
+                        <Link className="il" to='/aigen'>AI Генератор</Link>
                     </div>
                     <div className="link">
                         <Link className="il" to='/'>Коллекции</Link>
@@ -34,7 +34,7 @@ function Generator(props) {
 
 
             <div className="cont">
-                <div className="titel">
+                <div className="title">
                     Введите свой запрос на принт
                     <img src={hoodie} alt="" className="img__h"/>
 

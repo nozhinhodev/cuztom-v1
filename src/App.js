@@ -11,7 +11,7 @@ export default function App() {
         <Routes>
             <Route index element={<Main />} />
             <Route path="/construct" element={<Construct/>}/>
-            <Route path="/generator" element={<Generator/>}/>
+            <Route path="/aigen" element={<Generator/>}/>
         </Routes>
     );
 }
