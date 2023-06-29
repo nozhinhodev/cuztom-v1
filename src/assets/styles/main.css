@@ -163,3 +163,8 @@
     color: white;
 }
 
+@media (min-width: 700px){
+    body{
+        background-color: #333333;
+    }
+}
