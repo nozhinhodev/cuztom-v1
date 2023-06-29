@@ -32,6 +32,7 @@ function Main(props) {
                     </div>
                 </div>
             </div>
+
             <div className="main__content">
                 <div className="product__box">
                     <div className="image"><img src={hoodie} className='hoodie__pic' alt=""/></div>

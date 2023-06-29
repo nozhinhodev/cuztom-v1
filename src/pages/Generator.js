@@ -20,18 +20,18 @@ function Generator(props) {
 
                 <div className="links">
 
-                    <Link to='/construct' className="il">
-                        Конструктор
-                    </Link>
-                    <Link to='/aigen' className="il">
-                        AI Генератор
-                    </Link>
-                    <Link to='/' className="il">
-                        Коллекции
-                    </Link>
+                    <div className="link">
+                        <Link className='il' to='/construct'>Конструктор</Link>
+                    </div>
+                    <div className="link">
+                        <Link className="il" to='/generator'>AI Генератор</Link>
+                    </div>
+                    <div className="link">
+                        <Link className="il" to='/'>Коллекции</Link>
+                    </div>
                 </div>
-
             </div>
+
 
             <div className="cont">
                 <div className="titel">
