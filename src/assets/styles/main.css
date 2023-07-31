@@ -7,13 +7,13 @@
 
     body {
         font-family: 'Montserrat', sans-serif;
-
     }
 
     .links {
         display: flex;
         justify-content: center;
         gap: 5%;
+        margin-top: 50px;
     }
 
     .logo__img {
@@ -44,11 +44,10 @@
 
     .link {
         padding-bottom: 10px;
-        border-bottom: 1px solid black;
     }
 
     .sub__block {
-        background-color: #333333;
+        background-color: #8A80FF;
         width: 360px;
         height: 150px;
         border-radius: 0 0 15px 15px;
@@ -100,7 +99,7 @@
 
     .btn_link{
         text-decoration: none;
-        color: white;
+        color: black;
         text-underline: none;
     }
 
@@ -133,6 +132,8 @@
         list-style: none;
         text-underline: none;
         color: black;
+        font-size: 15px;
+        font-weight: 600;
     }
 
     .area {
@@ -161,6 +162,10 @@
 .btn_link{
     text-decoration: none;
     color: white;
+}
+.blue-block{
+  background-color: #0D00A0;;
+    height: 100px;
 }
 
 @media (min-width: 700px){

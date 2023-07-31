@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/cuztom.iml" filepath="$PROJECT_DIR$/.idea/cuztom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/drip-unlimited.iml" filepath="$PROJECT_DIR$/.idea/drip-unlimited.iml" />
     </modules>
   </component>
 </project>

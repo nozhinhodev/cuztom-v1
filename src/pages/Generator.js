@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/styles/main.css'
 import {Link} from "react-router-dom";
-import logo from "../assets/images/logo.svg";
 import hoodie from "../assets/styles/hoodie.png";
 function Generator(props) {
     return (
@@ -14,9 +13,6 @@ function Generator(props) {
             />
 
             <div className="header">
-                <div className="logo">
-                    <Link to='/'><img src={logo} alt=""/></Link>
-                </div>
 
                 <div className="links">
 

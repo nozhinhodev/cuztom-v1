@@ -1,26 +1,21 @@
 import React from 'react';
 import '../assets/styles/main.css'
-import logo from '../assets/images/logo.svg'
 import hoodie from '../assets/styles/hoodie.png'
 import { Link } from 'react-router-dom';
 
 function Main(props) {
     return (
         <div>
-            <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-                 integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-                crossOrigin="anonymous"
-            />
 
             <div className="header">
-                <div className="logo">
-                   <Link to='/'><img src={logo} alt=""/></Link>
+
+                <div className="blue-block">
+                    <Link className='il' to='https://www.instagram.com/drip.uz/' href=""><img src="../assets/images/instagram-logo.png" alt="" className="sm"/></Link>
+                    <Link to='' href=""><img src="../assets/images/facebook-logo.png" alt="" className="sm"/></Link>
                 </div>
 
-                <div className="links">
 
+                <div className="links">
                     <div className="link">
                         <Link className='il' to='/construct'>Конструктор</Link>
                     </div>
@@ -44,7 +39,7 @@ function Main(props) {
 
                     <div className="button">
                         <button className="btn">
-                            <Link className="btn_link" to='/construct'>Редактировать</Link>
+                            <Link className="btn_link" to='/construct'>Подробнее</Link>
                         </button>
                     </div>
                 </div>

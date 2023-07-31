@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../assets/images/logo.svg";
 import '../assets/styles/main.css'
 import hoodie from '../assets/styles/hoodie.png'
 import UploadAndDisplayImage from "./UploadAndDisplayImage";
@@ -18,9 +17,6 @@ function Construct(props) {
             />
 
             <div className="header">
-                <div className="logo">
-                    <Link to='/'><img src={logo} alt=""/></Link>
-                </div>
 
                 <div className="links">
 
